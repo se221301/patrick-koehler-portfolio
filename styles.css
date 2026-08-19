@@ -453,30 +453,17 @@ h1, h2, h3, p, figure { margin-top: 0; }
   gap: 72px;
 }
 
-.education-card {
+.education-timeline {
   padding-top: 34px;
-  border-top: 1px solid var(--line);
 }
 
-.education-meta {
-  margin-bottom: 8px;
-  color: var(--accent);
-  font-size: 11px;
+/* Education reuses the same date / line / dot layout as professional experience. */
+.education-timeline .timeline-item {
+  min-height: 150px;
 }
 
-.education-card h2 {
-  margin-bottom: 12px;
-  color: var(--ink);
-  font-size: 34px;
-  line-height: 1.15;
-  letter-spacing: -.02em;
-}
-
-.education-card p {
-  max-width: 860px;
-  color: #44586c;
-  font-size: 17px;
-  line-height: 1.75;
+.education-timeline .timeline-track span {
+  background: var(--soft);
 }
 
 /* Contact */
@@ -594,8 +581,7 @@ h1, h2, h3, p, figure { margin-top: 0; }
   .hero-kicker { font-size: 14px; line-height: 1.6; }
 
   .hero-text,
-  .about-copy p,
-  .education-card p { font-size: 16px; }
+  .about-copy p { font-size: 16px; }
 
   .about-lead,
   .contact-lead { font-size: 22px; }
@@ -623,8 +609,6 @@ h1, h2, h3, p, figure { margin-top: 0; }
     grid-column: 2;
     padding: 8px 0 24px;
   }
-
-  .education-card h2 { font-size: 28px; }
 
   .contact-links a,
   .contact-static {

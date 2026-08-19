@@ -13,8 +13,6 @@ Static bilingual portfolio website for Patrick Köhler.
 └── assets/
     ├── patrick-portrait-main.jpg
     ├── patrick-portrait-secondary.jpg
-    ├── patrick-private-original.png
-    ├── patrick-professional-original.jpg
     └── patrick-koehler-cv.pdf
 ```
 
