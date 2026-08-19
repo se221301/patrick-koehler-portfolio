@@ -71,7 +71,7 @@ const translations = {
   "education.meta": { en: "TECHNICAL EDUCATION", de: "TECHNISCHE AUSBILDUNG" },
   "education.title": { en: "HTL for Mechatronics", de: "HTL für Mechatronik" },
   "education.text": {
-    en: "Höhere Technische Lehranstalt Karlstein · Mechatronics training with diploma thesis in cooperation with AGRANA Stärke GmbH.",
+    en: "Higher Technical College Karlstein · Mechatronics training with diploma thesis in cooperation with AGRANA Stärke GmbH.",
     de: "Höhere Technische Lehranstalt Karlstein · Ausbildung im Bereich Mechatronik mit Diplomarbeit in Zusammenarbeit mit AGRANA Stärke GmbH."
   },
 
