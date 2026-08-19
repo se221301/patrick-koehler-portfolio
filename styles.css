@@ -145,14 +145,14 @@ h1, h2, h3, p, figure { margin-top: 0; }
   gap: 14px;
   min-height: 20px;
   color: var(--muted);
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .section-label span { color: var(--accent); }
 
 .section-label i {
-  width: 38px;
-  height: 1px;
+  width: 44px;
+  height: 2px;
   display: block;
   background: #95afbb;
 }
@@ -366,14 +366,15 @@ h1, h2, h3, p, figure { margin-top: 0; }
 
 .timeline-kicker {
   color: var(--accent);
-  font-size: 12px;
+  font-size: 13px;
+  font-weight: 500;
   letter-spacing: .12em;
 }
 
 .timeline-heading p {
   margin: 0;
   color: var(--muted);
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .timeline-list {
@@ -382,16 +383,16 @@ h1, h2, h3, p, figure { margin-top: 0; }
 
 .timeline-item {
   display: grid;
-  grid-template-columns: 190px 32px minmax(0, 1fr);
+  grid-template-columns: 215px 36px minmax(0, 1fr);
   column-gap: 24px;
-  min-height: 150px;
+  min-height: 164px;
   border-bottom: 1px solid var(--line);
 }
 
 .timeline-date {
-  padding-top: 31px;
-  color: var(--muted);
-  font-size: 11px;
+  padding-top: 34px;
+  color: #64788d;
+  font-size: 12px;
   white-space: nowrap;
 }
 
@@ -410,10 +411,10 @@ h1, h2, h3, p, figure { margin-top: 0; }
 
 .timeline-track span {
   position: absolute;
-  top: 35px;
+  top: 39px;
   left: 50%;
-  width: 9px;
-  height: 9px;
+  width: 11px;
+  height: 11px;
   border: 2px solid var(--accent);
   border-radius: 50%;
   background: var(--white);
@@ -421,20 +422,21 @@ h1, h2, h3, p, figure { margin-top: 0; }
 }
 
 .timeline-content {
-  padding: 25px 0 27px;
+  padding: 28px 0 31px;
 }
 
 .timeline-type {
   margin-bottom: 6px;
   color: var(--accent);
-  font-size: 10px;
-  letter-spacing: .1em;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: .11em;
 }
 
 .timeline-content h3 {
   margin: 0 0 7px;
   color: var(--ink);
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 600;
 }
 
@@ -442,24 +444,15 @@ h1, h2, h3, p, figure { margin-top: 0; }
   max-width: 820px;
   margin: 0;
   color: #4a5d72;
-  font-size: 15px;
-  line-height: 1.7;
+  font-size: 16.5px;
+  line-height: 1.72;
 }
 
 /* Education */
-.education-grid {
-  display: grid;
-  grid-template-columns: 170px minmax(0, 1fr);
-  gap: 72px;
-}
-
 .education-timeline {
-  padding-top: 34px;
-}
-
-/* Education reuses the same date / line / dot layout as professional experience. */
-.education-timeline .timeline-item {
-  min-height: 150px;
+  margin-top: 46px;
+  padding-top: 0;
+  border-top: 0;
 }
 
 .education-timeline .timeline-track span {
@@ -553,7 +546,6 @@ h1, h2, h3, p, figure { margin-top: 0; }
   .hero { min-height: auto; padding: 68px 0 78px; }
 
   .about-grid,
-  .education-grid,
   .contact-grid { grid-template-columns: 1fr; }
 
   .section-label { grid-column: 1 / -1; }
@@ -564,7 +556,7 @@ h1, h2, h3, p, figure { margin-top: 0; }
   .contact-grid { gap: 24px; }
 
   .timeline-item {
-    grid-template-columns: 145px 28px minmax(0, 1fr);
+    grid-template-columns: 160px 30px minmax(0, 1fr);
     column-gap: 18px;
   }
 }
