@@ -10,8 +10,8 @@ const translations = {
     de: "Mechatronik · Servicetechnik · Industrieanlagen"
   },
   "hero.text": {
-    en: "I am a mechatronics engineer and field service technician with several years of experience in technical service, assembly and industrial environments. I currently work internationally in service for industrial furnace systems.",
-    de: "Ich bin Mechatroniker und Servicetechniker mit mehrjähriger Erfahrung in technischem Service, Montage und industriellen Arbeitsumgebungen. Aktuell bin ich international im Service für Industrieofenanlagen tätig."
+    en: "I am a mechatronics engineer and field service technician with several years of experience in technical service, assembly and industrial environments. I currently work throughout Europe in service for industrial furnace systems.",
+    de: "Ich bin Mechatroniker und Servicetechniker mit mehrjähriger Erfahrung in technischem Service, Montage und industriellen Arbeitsumgebungen. Aktuell bin ich europaweit im Service für Industrieofenanlagen tätig."
   },
   "hero.experience": { en: "View Experience", de: "Erfahrung ansehen" },
   "hero.cv": { en: "View CV", de: "Lebenslauf ansehen" },
@@ -33,7 +33,7 @@ const translations = {
   "toolbox.4": { en: "Metalworking", de: "Metallbearbeitung" },
   "toolbox.5": { en: "Mechanical Assembly", de: "Mechanische Montage" },
   "toolbox.6": { en: "Troubleshooting", de: "Störungsbehebung" },
-  "toolbox.7": { en: "Siemens / PLC / SPS", de: "Siemens / PLC / SPS" },
+  "toolbox.7": { en: "PLC", de: "SPS" },
   "toolbox.8": { en: "Industrial Furnace Systems", de: "Industrieofenanlagen" },
 
   "field.title": { en: "FIELD EXPERIENCE", de: "PRAXISERFAHRUNG" },
@@ -55,8 +55,8 @@ const translations = {
   "experience.1.type": { en: "FIELD SERVICE", de: "SERVICETECHNIK" },
   "experience.1.title": { en: "Service Technician", de: "Servicetechniker" },
   "experience.1.desc": {
-    en: "EBNER Industrieofenbau GmbH · International service assignments in the DACH region, France, Italy, Poland, Romania, South Korea, Saudi Arabia and South Africa for industrial furnace systems, including installation work, troubleshooting and team coordination on site.",
-    de: "EBNER Industrieofenbau GmbH · Internationale Serviceeinsätze in der DACH-Region sowie in Frankreich, Italien, Polen, Rumänien, Südkorea, Saudi-Arabien und Südafrika für Industrieofenanlagen, inklusive Montagearbeiten, Störungsbehebung und Teamkoordination vor Ort."
+    en: "EBNER Industrieofenbau GmbH · International service assignments throughout Europe for industrial furnace systems, installation work, troubleshooting and team coordination on site.",
+    de: "EBNER Industrieofenbau GmbH · Internationale Serviceeinsätze in ganz Europa für Industrieofenanlagen, Montagearbeiten, Störungsbehebung und Teamkoordination vor Ort."
   },
 
   "experience.2.date": { en: "SEP 2019 — OCT 2023", de: "SEP 2019 — OKT 2023" },
