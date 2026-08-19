@@ -44,12 +44,7 @@ const translations = {
   "field.5": { en: "Service & Maintenance", de: "Service & Instandhaltung" },
   "field.6": { en: "Time Management", de: "Zeitmanagement" },
 
-  "experience.label": { en: "EXPERIENCE", de: "ERFAHRUNG" },
-  "experience.title": { en: "PROFESSIONAL EXPERIENCE", de: "BERUFSERFAHRUNG" },
-  "experience.subtitle": {
-    en: "Employment history and international field work",
-    de: "Beruflicher Werdegang und internationale Einsätze"
-  },
+  "experience.label": { en: "PROFESSIONAL EXPERIENCE", de: "BERUFSERFAHRUNG" },
 
   "experience.1.date": { en: "NOV 2023 — PRESENT", de: "NOV 2023 — HEUTE" },
   "experience.1.type": { en: "FIELD SERVICE", de: "SERVICETECHNIK" },

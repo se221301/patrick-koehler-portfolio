@@ -352,29 +352,8 @@ h1, h2, h3, p, figure { margin-top: 0; }
 /* Timeline */
 .career-timeline {
   margin-top: 46px;
-  padding-top: 42px;
-  border-top: 1px solid var(--line);
-}
-
-.timeline-heading {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 28px;
-  margin-bottom: 22px;
-}
-
-.timeline-kicker {
-  color: var(--accent);
-  font-size: 13px;
-  font-weight: 500;
-  letter-spacing: .12em;
-}
-
-.timeline-heading p {
-  margin: 0;
-  color: var(--muted);
-  font-size: 15px;
+  padding-top: 0;
+  border-top: 0;
 }
 
 .timeline-list {
@@ -577,9 +556,6 @@ h1, h2, h3, p, figure { margin-top: 0; }
 
   .about-lead,
   .contact-lead { font-size: 22px; }
-
-  .timeline-heading { display: block; margin-bottom: 18px; }
-  .timeline-heading p { margin-top: 6px; }
 
   .timeline-item {
     grid-template-columns: 18px minmax(0, 1fr);
