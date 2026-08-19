@@ -43,3 +43,8 @@ This is a static site and needs no build step.
 ## Privacy note
 
 The included CV is the uploaded original. Before publishing the site publicly, review the PDF and decide which personal information should remain visible.
+
+
+## Content note
+
+Patrick's current field service work is described as international. The experience section includes assignments in the DACH region, France, Italy, Poland, Romania, South Korea, Saudi Arabia and South Africa.
