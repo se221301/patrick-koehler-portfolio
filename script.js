@@ -14,7 +14,7 @@ const translations = {
     de: "Ich bin Mechatroniker und Servicetechniker mit mehrjähriger Erfahrung in technischem Service, Montage und industriellen Arbeitsumgebungen. Aktuell bin ich international im Service für Industrieofenanlagen tätig."
   },
   "hero.experience": { en: "View Experience", de: "Erfahrung ansehen" },
-  "hero.cv": { en: "View CV", de: "Lebenslauf ansehen" },
+  "hero.cv": { en: "Download CV", de: "Lebenslauf herunterladen" },
 
   "about.label": { en: "ABOUT", de: "ÜBER MICH" },
   "about.lead": {
